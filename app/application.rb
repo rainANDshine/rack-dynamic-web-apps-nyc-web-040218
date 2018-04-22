@@ -5,8 +5,8 @@ class Application
 
     num1 = Kernel.rand(1..2)
     num2 = Kernel.rand(1..2)
-    num3 = Kernel.rand(1..2) 
-    
+    num3 = Kernel.rand(1..2)
+
     resp.write "#{num1}\n"
     resp.write "#{num2}\n"
     resp.write "#{num3}\n"
@@ -16,7 +16,7 @@ class Application
     else
       resp.write "You Lose"
     end
-    
+
     resp.finish
   end
 
